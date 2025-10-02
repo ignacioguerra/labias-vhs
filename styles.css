@@ -1,0 +1,44 @@
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  padding: 40px 12px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.container__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 0.25rem;
+}
+
+#background,
+#vhs-canvas {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.logo {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8.5rem;
+  color: white;
+
+  @media screen and (max-width: 768px) {
+    font-size: 6rem;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 4rem;
+  }
+}
