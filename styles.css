@@ -33,7 +33,7 @@ html, body {
   align-items: center;
   justify-content: center;
   font-size: 8.5rem;
-  color: white;
+  color: #00d492;
 
   @media screen and (max-width: 768px) {
     font-size: 6rem;
