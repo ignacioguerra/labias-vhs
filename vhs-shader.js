@@ -160,7 +160,7 @@
       fallbackImg.style.display = 'block';
       canvas.style.display = 'none';
     };
-    image.src = 'labias.jpg';
+    image.src = 'labias-alt.jpg';
     
     // Render loop
     let startTime = Date.now();
