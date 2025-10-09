@@ -4,10 +4,19 @@ html, body {
   height: 100%;
 }
 
+body {
+  font: normal 100%/1.5 'Roboto', sans-serif;
+}
+
 .container {
   padding: 40px 12px;
   height: 100%;
   box-sizing: border-box;
+}
+
+.container--article {
+  max-width: 680px;
+  margin: 0 auto;
 }
 
 .container__inner {
@@ -41,4 +50,27 @@ html, body {
   @media screen and (max-width: 480px) {
     font-size: 4rem;
   }
+}
+
+.text-content {
+  font-weight: 300;
+  font-size: 1.125rem;
+}
+
+.text-content h1 {
+  margin: 2rem 0 4rem 0;
+}
+
+.text-content b {
+  font-weight: 600;
+}
+
+.text-content hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 2rem 0;
+}
+
+.text-content hr + p {
+  
 }
