@@ -16,6 +16,7 @@ body {
 
 .container--article {
   max-width: 680px;
+  height: auto;
   margin: 0 auto;
 }
 
@@ -69,8 +70,4 @@ body {
   border: none;
   border-top: 1px solid #ccc;
   margin: 2rem 0;
-}
-
-.text-content hr + p {
-  
 }
